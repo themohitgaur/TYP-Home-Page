@@ -1,0 +1,250 @@
+<!doctype html>
+<html>
+<head>
+    <title>Themohitgaur</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <style>
+        body {
+            margin: 0;
+            background-color: whitesmoke;
+            font-family: Arial;
+        }
+
+        #navbar {
+            background: #333333;
+            height: 72px;
+            color: white;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        #brand_logo {
+            display: flex;
+            align-items: center;
+        }
+
+        #typ-brand-box {
+            font-weight: 900;
+        }
+
+        .typ-branding {
+            background: #50A3A2;
+            padding: 4px 10px;
+            margin: 10px;
+        }
+        .search {
+            display: flex;
+        }
+        .search input[type=text] {
+                padding: 6px;
+                width: width: 414px;
+                margin-top: 8px;
+                font-size: 17px;
+                border: none;
+        }
+
+        .search button {
+            float: right;
+            padding: 6px 10px;
+            margin-top: 8px;
+            margin-right: 16px;
+            background: #ddd;
+            font-size: 17px;
+            border: none;
+            cursor: pointer;
+        }
+        .search button:hover {
+            background: #ccc;
+        }
+        .avtar {
+            vertical-align: middle;
+            width: 50px;
+            height: 20px;
+            border-radius: 50%;
+            cursor:pointer;
+        }
+            .avtar:hover {
+                opacity: 0.7;
+            }
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 300px;
+            margin: 25px;
+            text-align: center;
+            font-family: arial;
+
+        }
+        #card {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-top: 58px;
+        }
+        a {
+            text-decoration: none;
+            font-size: 22px;
+            color: black;
+            align-items:center;
+
+        }
+       #card button {
+            border: none;
+            padding: 8px;
+            color: white;
+            background-color: #000;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+            font-size: 18px;
+        }
+            button:hover, a:hover {
+                opacity: 0.7;
+            }
+        .contact {
+            margin: 24px 0;
+            display: flex;
+            align-self: center;
+            align-items: center;
+            justify-content: center;
+            cursor:pointer;
+        }
+        .container {
+        }
+        #footer {
+            background: #333333;
+            width: 100%;
+            height: 72px;
+            color: white;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            margin-bottom:0px;
+        }
+
+        #end {
+            flex-direction: row;
+            justify-content: space-around;
+            width: 587px;
+            display: flex;
+            cursor: pointer;
+        }
+        #end:hover {
+                opacity: 0.7;
+        }
+        @media screen and (max-width: 600px) {
+            .search-container {
+                    float: none;
+                }
+            }
+
+            .se input[type=text] {
+            border: 1px solid #ccc;
+        }
+
+        }
+    </style>
+</head>
+<body>
+    <!--Navbar-->
+    <div id="navbar">
+        <div id="brand_logo">
+            <div id="typ-brand-box" class="typ-branding">TYP.</div>
+            <div>TITANS</div>
+        </div>
+
+        <div class="search">
+            <form>
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+        <div class="avtar">
+            <img src="user.png" class="avatar">
+        </div>
+    </div>
+    <div id="card">
+        <div class="card">
+            <img src="user1.png" alt="Avatar" style="width:100%">
+            <div class="container">
+                <h4><b>Mohit Sharma</b></h4>
+                <p>Full Stack Developer</p>
+            </div>
+            <div class="contact">
+                <a href="#"><i class="fa fa-github"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+            </div>
+            <p><button style="align-self:center">Open Profile</button></p>
+        </div>
+        <div class="card">
+            <img src="user1.png" alt="Avatar" style="width:100%">
+            <div class="container">
+                <h4><b>Himanshu Bhardwaj</b></h4>
+                <p>Full Stack Developer</p>
+            </div>
+            <div class="contact">
+                <a href="#"><i class="fa fa-github"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+            </div>
+            <p><button>Open Profile</button></p>
+        </div>
+        <div class="card">
+            <img src="user3.png" alt="Avatar" style="width:100%">
+            <div class="container">
+                <h4><b>Shubangi</b></h4>
+                <p>Full Stack Developer</p>
+            </div>
+            <div class="contact">
+                <a href="#"><i class="fa fa-github"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+            </div>
+            <p><button>Open Profile</button></p>
+        </div>
+        <div class="card">
+            <img src="user1.png" alt="Avatar" style="width:100%">
+            <div class="container">
+                <h4><b>Rohit Sharma</b></h4>
+                <p>Full Stack Developer</p>
+            </div>
+            <div class="contact">
+                <a href="#"><i class="fa fa-github"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+            </div>
+            <p><button>Open Profile</button></p>
+        </div>
+        <br />
+    </div>
+    <div id="footer">
+        <div id="start">
+            <p>(c)2020.The Youth Project TYP TITANS</p>
+        </div>
+        <div id="end">
+            <a id="linkbox">Term of Use</a>
+            <a id="linkbox"> </a>
+            <a id="linkbox">Privacy Policy</a>
+            <a id="linkbox"> </a>
+            <a id="linkbox">Support</a>
+            <a id="linkbox">|</a>
+
+            <button class="facebook-login"><i class="fa fa-facebook"></i></button>
+            <button class="twitter-login"><i class="fa fa-twitter"></i></button>
+            <button class="instagram-login"><i class="fa fa-instagram"></i></button>
+            <button class="github-login"><i class="fa fa-github"></i></button>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
